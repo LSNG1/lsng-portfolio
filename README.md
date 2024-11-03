@@ -4,18 +4,24 @@ https://lsng.vercel.app/
 Bienvenue sur le code source du portfolio de Le-Savio NGUYEN, un développeur web passionné par la création d'expériences numériques interactives et attrayantes. Ac
 
 ## Table des Matières
-- [Aperçu](#aperçu)
-- [Fonctionnalités](#fonctionnalités)
-- [Technologies Utilisées](#technologies-utilisées)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Utilisation](#utilisation)
-- [Scripts Disponibles](#scripts-disponibles)
-- [Structure du Projet](#structure-du-projet)
-- [Données Supabase](#données-supabase)
-- [Contribuer](#contribuer)
-- [Licence](#licence)
-- [Contact](#contact)
+- [Portfolio de Le-Savio NGUYEN](#portfolio-de-le-savio-nguyen)
+	- [Table des Matières](#table-des-matières)
+	- [Aperçu](#aperçu)
+	- [Fonctionnalités](#fonctionnalités)
+	- [Technologies Utilisées](#technologies-utilisées)
+	- [Installation](#installation)
+		- [Prérequis](#prérequis)
+		- [Étapes](#étapes)
+	- [Configuration](#configuration)
+		- [Variables d'Environnement](#variables-denvironnement)
+	- [Utilisation](#utilisation)
+	- [Scripts Disponibles](#scripts-disponibles)
+	- [Structure du Projet](#structure-du-projet)
+	- [Données Supabase](#données-supabase)
+		- [Table `projects`](#table-projects)
+		- [Table `skills`](#table-skills)
+		- [Table `experience`](#table-experience)
+	- [Contact](#contact)
 
 ## Aperçu
 Ce projet est une application web développée avec React et TypeScript, servant de portfolio interactif pour présenter mes compétences, mes projets et mon parcours professionnel. Le site est conçu pour offrir une expérience utilisateur fluide et moderne, avec une navigation intuitive et un design responsive.
@@ -123,17 +129,6 @@ Assurez-vous que votre instance Supabase contient les tables suivantes :
 - `role` : text
 - `duration` : text
 - `location` : text (optionnel)
-
-## Contribuer
-Les contributions sont les bienvenues ! Pour améliorer ce projet :
-1. Fork le projet
-2. Créez votre branche de fonctionnalité (`git checkout -b feature/YourFeature`)
-3. Committez vos modifications (`git commit -m 'Add some feature'`)
-4. Pushez vers la branche (`git push origin feature/YourFeature`)
-5. Ouvrez une Pull Request
-
-## Licence
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
 ## Contact
 Pour toute question ou suggestion, n'hésitez pas à me contacter via le formulaire de contact sur le site ou via mes profils professionnels :
